@@ -41,7 +41,7 @@ a{
 .header__fon{
     background-image: url(./image/fon/bg.png);
     background-position: center center;
-    padding: 41px 250px 71px;
+    padding: 41px 230px 71px;
 }
 
 .header__logo{
@@ -84,7 +84,7 @@ a{
 }
 
 #navbar{
-    padding: 24px 250px;
+    padding: 24px 230px;
     border: 2px solid transparent;
     border-bottom: solid rgba(230, 230, 230, 1);
 }
@@ -102,7 +102,7 @@ a{
 }
 
 #about{
-    padding: 58px 250px;
+    padding: 58px 230px;
 }
 
 .name{
@@ -163,7 +163,7 @@ a{
 }
 
 #services{
-    padding: 60px 250px 115px;
+    padding: 60px 230px 115px;
 }
 
 .serv_name{
@@ -232,7 +232,7 @@ a{
 }
 
 #newsletter{
-    padding: 35px 250px;
+    padding: 35px 230px;
 }
 
 .new_title{
@@ -241,7 +241,7 @@ a{
 }
 
 .contact{
-    padding: 42px 250px 50px;
+    padding: 42px 230px 50px;
 }
 
 .contact_logo{
