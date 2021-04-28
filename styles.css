@@ -199,7 +199,7 @@ a{
 .wraper{
     margin-top: 78px;
     border: 1px solid #E6E6E6;
-    padding: 38px 20px;
+    padding: 38px 18px;
     margin-right: 28px;
 }
 
@@ -239,6 +239,18 @@ a{
     font-weight: 700;
     font-size: 22px;
 }
+
+.form_input{
+    display: inline-block;
+    padding: 11px 98px 11px 16px;
+}
+
+input {
+    outline:none;
+    border: 1px solid white;
+}
+
+#contact{}
 
 .contact{
     padding: 42px 230px 50px;
