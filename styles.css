@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(72, 85, 91, 1);
+    ;
+}
+
+html{
+    font-size: 14px;
+}
+
+body{
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.center{
+    align-items: center;
+}
+
+.header__fon{
+    background-image: url(./image/fon/bg.png);
+    background-position: center center;
+    padding: 41px 250px 71px;
+}
+
+.header__logo{
+    text-align: center;
+    padding-bottom: 317px;
+    box-sizing: border-box;
+}
+
+.color_light{
+    color: white;
+}
+
+.color_dark{
+    background-color: black;
+}
+
+.color_fot{
+    background-color: #141A20;
+}
+
+.header_title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 5.71px;
+}
+
+.header_subtitle{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 196px;
+}
+
+.header_footer{
+    font-weight: 600;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 3.7px;
+}
+
+#navbar{
+    padding: 24px 250px;
+    border: 2px solid transparent;
+    border-bottom: solid rgba(230, 230, 230, 1);
+}
+
+.nav{
+    margin-left: 48px;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1.09px;
+}
+
+.color_sky{
+    color: rgba(0, 164, 229, 1);
+    font-weight: 700;
+}
+
+#about{
+    padding: 58px 250px;
+}
+
+.name{
+    text-align: center;
+    letter-spacing: 2.31px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.name::after{
+    content: '';
+    display: block;
+    margin-top: 10px;
+    margin-left: calc(50% - 25px );
+    width: 50px;
+    border: 1px solid #00A4E5;
+    background-color: #00A4E5;
+}
+
+.about_wraper{
+    padding-top: 92px;
+    padding-right: 5px;
+    max-width: 395px;
+    width: 100%;
+}
+
+.title{
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.subtitle{
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.cards{
+    font-weight: 800;
+    font-size: 24px;
+    margin-left: 10px;
+    width: 120px;
+    margin-top: 125px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.plan{
+    background-image: url(./image/fon/Plan.jpg);
+}
+
+.manage{
+    background-image: url(./image/fon/Manage.png);
+}
+
+.build{
+    background-image: url(./image/fon/Build.png);
+}
+
+#services{
+    padding: 60px 250px 115px;
+}
+
+.serv_name{
+    letter-spacing: 2.31px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.serv_name::after{
+    content: '';
+    display: block;
+    margin-top: 10px;
+    width: 50px;
+    border: 1px solid #00A4E5;
+    background-color: #00A4E5;
+}
+
+.size{
+    font-size: 11px;
+    padding-right: 30px;
+}
+
+.buttom{
+    display: inline;
+    border: 1px solid #00A4E5;
+    background: #00A4E5;
+    box-sizing: border-box;
+    padding: 11px 29px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.wraper{
+    margin-top: 78px;
+    border: 1px solid #E6E6E6;
+    padding: 38px 20px;
+    margin-right: 28px;
+}
+
+.wraper:last-child{
+    margin-right: 0px;
+}
+
+.title_wraper{
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 25px;
+    padding-bottom: 13px;
+}
+
+.fon{
+    background-image: url(./image/fon/silent_hill.png);
+    padding-bottom: 242px;
+}
+
+.qet_title{
+    font-weight: 700;
+    font-size: 30px;
+    padding: 120px 0px 35px;
+    text-align: center;
+}
+
+.buttom_left{
+    margin-left: calc(50% - 75px) ;
+    margin-bottom: 240px;
+}
+
+#newsletter{
+    padding: 35px 250px;
+}
+
+.new_title{
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.contact{
+    padding: 42px 250px 50px;
+}
+
+.contact_logo{
+    padding: 19px 0px 15px;
+}
+
+.contact_title{
+    font-size: 11px;
+    font-weight: 400;
+    color: white;
+}
+
+.contact_list{
+    font-size: 11px;
+    font-weight: 600;
+    color: white;
+    padding-top: 9px;
+    padding-right: 38px;
+}
+
+.contact_down{
+    margin-top: 15px;
+}
+
+.contact_title_down{
+    margin-top: 10px;
+}
+
+.image{
+    width: 30px;
+}
+
+.image:hover{
+    transform: scale(2);
+}
+
+.referral{
+    text-align: center;
+    padding: 22px 0px;
+    font-size: 11px;
+    font-weight: 400;
+}
