@@ -201,6 +201,9 @@ a{
 
 .button:hover{
     cursor: pointer;
+    background-color: gray;
+    transition: .5s;
+    border:1px solid gray;
 }
 
 .wraper{
