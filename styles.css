@@ -145,6 +145,7 @@ a{
     font-size: 24px;
     margin-left: 10px;
     width: 120px;
+    height: 175px;
     margin-top: 125px;
     padding-left: 10px;
     padding-top: 20px;
@@ -186,14 +187,20 @@ a{
     padding-right: 30px;
 }
 
-.buttom{
-    display: inline;
+.button{
+    display: block;
     border: 1px solid #00A4E5;
     background: #00A4E5;
     box-sizing: border-box;
     padding: 11px 29px;
     font-size: 13px;
     font-weight: 700;
+    width: fit-content;
+    margin: auto;
+}
+
+.button:hover{
+    cursor: pointer;
 }
 
 .wraper{
@@ -216,7 +223,7 @@ a{
 
 .fon{
     background-image: url(./image/fon/silent_hill.png);
-    padding-bottom: 242px;
+    padding-bottom: 219px;
 }
 
 .qet_title{
@@ -224,11 +231,6 @@ a{
     font-size: 30px;
     padding: 120px 0px 35px;
     text-align: center;
-}
-
-.buttom_left{
-    margin-left: calc(50% - 75px) ;
-    margin-bottom: 240px;
 }
 
 #newsletter{
